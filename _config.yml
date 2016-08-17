@@ -1,7 +1,20 @@
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+    permalink:
+      path: '/:title/'
+typography_spectrum: 0.6510639
 color:
-  saturation: 0
+  saturation: 1
   brandStrength: 1
-  lightness: 0
+  lightness: 1
   brandColors:
     - '#FDFAFB'
     - '#0E0D0C'
@@ -9,18 +22,5 @@ color:
     - '#88FBE9'
     - '#F278F2'
   rhythmicContrast: 0
-collections:
-  - index:
-      path: /
-      number: 15
-      paginate: true
-      navigable: true
-    permalink:
-      path: '/:title/'
-    feed:
-      path: /rss.xml
-      format: rss
-      number: 10
 layout_spectrum: 0.1531915
-typography_spectrum: 0.6510639
 name: OliUclip
